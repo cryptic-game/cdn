@@ -18,7 +18,7 @@ jobs:
           branch: main
           folder: .
           clean: true
-          target-folder: www/net.cryptic-game
+          target-folder: www/net.cryptic-game.cdn
 
           ssh-key: ${{ secrets.DEPLOY_SSH_KEY }}
           commit-message: Deployed ${{ github.repository }}
